@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+  },
+  "projects": {
+    "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectName": "Play.Catalog.Service",
+        "projectPath": "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "packagesPath": "C:\\Users\\mansoury\\.nuget\\packages\\",
+        "outputPath": "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mansoury\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net50"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
