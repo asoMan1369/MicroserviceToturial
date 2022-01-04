@@ -1,34 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
+    "C:\\projects\\Microservice\\MicroserviceToturial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {}
   },
   "projects": {
-    "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
+    "C:\\projects\\Microservice\\MicroserviceToturial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "projectUniqueName": "C:\\projects\\Microservice\\MicroserviceToturial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
         "projectName": "Play.Catalog.Service",
-        "projectPath": "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
-        "packagesPath": "C:\\Users\\mansoury\\.nuget\\packages\\",
-        "outputPath": "F:\\learning\\microservices\\Building Microservices with .NET - The Basics\\Building Microservices with .NET - The Basics\\2. Your first microservice\\2.1 source_code[UdemyIran.Com]\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
+        "projectPath": "C:\\projects\\Microservice\\MicroserviceToturial\\Play.Catalog\\src\\Play.Catalog.Service\\Play.Catalog.Service.csproj",
+        "packagesPath": "C:\\Users\\asoMan\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Microservice\\MicroserviceToturial\\Play.Catalog\\src\\Play.Catalog.Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mansoury\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\asoMan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net50"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net50": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -39,7 +37,8 @@
         }
       },
       "frameworks": {
-        "net50": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -59,12 +58,26 @@
               "target": "Package",
               "version": "[5.6.3, )"
             }
-          }
-        }
-      },
-      "runtimes": {
-        "win7-x86": {
-          "#import": []
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
